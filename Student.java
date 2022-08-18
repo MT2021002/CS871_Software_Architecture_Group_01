@@ -14,6 +14,7 @@ class Student{
         query.queryText = queryText;
         query.student_id = this.student_id;
         query.queryRaised_DURING_exam = queryRaised_DURING_exam;
+        query.queryState = "Being validated";
         InMemoryStorage.questionQueries.add(query);
     }
 }
